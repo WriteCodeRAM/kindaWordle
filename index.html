@@ -9,10 +9,26 @@
 </head>
 <body>
   <nav>
-    <h1><span>kinda</span> Wordle</h1>
+    <h1><span>kinda </span>Wordle</h1>
   </nav>
 
   <section class="game-container">
+    <p class="error"></p>
+    <div class="modal hidden">
+        <div class="close-modal">&times;</div>
+        <h2>Rules</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+  
     <div class="game-board">
         <!-- <div class="row-1">
             <div class="tile-0"></div>
@@ -44,7 +60,7 @@
             <button id="L">L</button>
         </div>
         <div class="keyboard-row">
-            <button>ENTER</button>
+            <button id="ENTER">ENTER</button>
             <button id="Z">Z</button>
             <button id="X">X</button>
             <button id="C">C</button>
@@ -52,7 +68,7 @@
             <button id="B">B</button>
             <button id="N">N</button>
             <button id="M">M</button>
-            <button>DEL</button>
+            <button id="DELETE">DEL</button>
         </div>
     </div>
   </section>
