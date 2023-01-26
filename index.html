@@ -9,7 +9,10 @@
 </head>
 <body>
   <nav>
+    <a href="https://github.com/WriteCodeRAM?tab=repositories"><img src="./icons8-github-24.png" alt=""></a>
+    
     <h1><span class="title-span">kinda </span>Wordle</h1>
+    <a id="stats" href="#">Stats</a>
   </nav>
 
   <section class="game-container">
@@ -19,6 +22,14 @@
         <div class="modal-content">
         <h2 class="modal-h2">Rules</h2>
         <h3 class="modal-h3">Guess the wordle in 6 tries.</h3>
+        <div class="stats">
+            <h4>Stats</h4>
+            <div class="gamesPlayed"></div>
+            <div class="gamesWon"></div>
+            <div class="currentStreak"></div>
+            <div class="maxStreak"></div>
+            <div class="winRate"></div>
+        </div>
         <ul class='customIndent'>
             <li>Each guess must be a valid 5 letter word.</li>
             <li>The color of the tiles will change to show how close your guess was to the word.</li>
