@@ -1,4 +1,4 @@
-# kindaWordle# kindaWordle
+#kindaWordle
 
 **kindaWordle** is inspired by the New York Time's Wordle.
   - stats tracked with local storage
