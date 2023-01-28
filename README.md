@@ -1,6 +1,8 @@
 # kindaWordle
 
 **kindaWordle** is inspired by the New York Time's Wordle.
+
+kindaWordle includes 
   - stats tracked with local storage
   - Consecutive playthroughs (no next day downtime) 
   - word validation through dictionary API. 
@@ -14,4 +16,4 @@ Here's a quick GIF of the app (link below):
 ### [kindaWordle Link](https://writecoderam.github.io/kindaWordle/)
 
 ## Notes
-This project was completed after I finished TheOdinProject's [Async JavaScript and API's sections](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#asynchronous-javascript-and-apis). I decided to take this recently learned skill and applied it to a personal project.
+This project was completed after finishing TheOdinProject's [Async JavaScript and API's section](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#asynchronous-javascript-and-apis). I decided to apply the recently learned skill to a personal project. 
